@@ -8,7 +8,7 @@ def exp_data():
     exit = ''
     while exit != 'q':
         users_data = [
-            [input('Фмилия: '), input('Имя: '), input('Телефон: '), input('Комментарий: ')]
+            [input('Фамилия: '), input('Имя: '), input('Телефон: '), input('Комментарий: ')]
         ]
         with open("notephone.csv", mode="a", encoding='utf-8') as np:
             heading = csv.writer(np, delimiter=';')
